@@ -19,7 +19,7 @@ Like a quick explanation sketch drawn on paper by someone who has long worked in
 ## Colors
 
 - Black: main line art, frame lines, structure, main text, primary objects.
-- Pink: Tomochi's body (consistent across all images).
+- Dusty pink: Tomochi's body — soft, muted, warm. Not pastel, not vibrant. Faded rose/dusty blush tone.
 - Red: key annotations, problems, emotional points, critical reminders, results.
 - Orange: main flow, paths, arrows, automation direction, movement from A to B.
 - Blue: supplementary notes, mental state, system state, second-level explanation, AI/assistant/automation hints.

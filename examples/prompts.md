@@ -149,7 +149,7 @@ Generate one standalone 16:9 horizontal article illustration.
 
 Visual DNA: Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse handwritten annotations. Clean absurd product-sketch feeling. No gradients, shadows, paper texture, PPT look, or cute mascot style.
 
-Character: Tomochi, a small vibrant-pink blob — round like Ditto, soft like mochi, morphs like Kirby. White dot eyes, short stubby arms/legs, lumpy hand-drawn outline. Mildly confused expression. Body morphs with action.
+Character: Tomochi, a small soft-saggy blob shaped like Gudetama — slightly deflated, droopy, gravity-affected lump. Dusty pink (muted warm rose / faded blush — not pastel, not vibrant). Half-lidded droopy eyes, sleepy-confused expression. Short limp arms, reluctant stubby legs. Rough saggy hand-drawn outline. Body droops under weight, stretches heavily when pulled, flattens when squished. Same dusty pink, same droopy eyes in all poses.
 
 Theme: Two Breakpoints
 Structure: Workflow

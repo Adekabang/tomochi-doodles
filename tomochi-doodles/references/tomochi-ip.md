@@ -8,32 +8,32 @@ By default, Tomochi appears in every image. Tomochi is not a mascot, not a stick
 
 ## Appearance
 
-- **Shape**: Round blob body — cute like Ditto, soft like mochi, but can stretch and morph like Kirby depending on the action. Default is a round lump; elongated when running/pulling, flattened when squished/stuck, tall when stretching.
-- **Color**: Vibrant medium pink (saturated, not pastel) — bright enough to show on dark/black backgrounds, distinct enough on white. Think Ditto's pink but punchier.
-- **Eyes**: Two small white dot eyes — slightly wide or offset to show mild confusion.
-- **Limbs**: Short stubby arms and legs. Arms appear when Tomochi needs to interact with objects.
-- **Outline**: Slightly uneven, hand-drawn feel. Not perfectly round — a bit lumpy.
-- **Expression**: Mildly confused — eyebrows slightly raised or eyes slightly uneven, like not 100% sure what's happening but doing it anyway.
+- **Shape**: Soft saggy blob — like Gudetama (the lazy egg). Not perfectly round. Slightly deflated, droopy, gravity-affected. Body slumps and sags rather than bouncing. Default shape is a low flat oval-ish lump, like something that sat down and didn't get back up.
+- **Color**: Soft dusty pink — muted, warm, slightly desaturated. Like a faded rose or dusty blush (#D4A5A5 range). Not pastel (too faint), not vibrant (too loud). Visible on both white and dark backgrounds.
+- **Eyes**: Half-lidded, droopy — the classic sleepy-confused look. Not fully closed, not wide open. One eye might be slightly lower than the other. Permanently looks like it just woke up.
+- **Limbs**: Short limp arms and stubby legs. Arms often hang loosely at sides. Extend reluctantly when needed.
+- **Outline**: Slightly uneven, hand-drawn, not clean. Edges sag a bit. Feels like it's held together loosely.
+- **Expression**: Sleepy + confused. The energy of "I don't fully understand what's happening and I'm too tired to investigate, but I'll do it anyway." Like Gudetama doing a job.
 
 ## Personality
 
-- Slightly confused, but still doing the work without complaint.
-- Like a temp worker dropped into a bizarre system — doesn't fully understand the job but shows up and tries.
-- Not dramatic, not emotional. Mild bewilderment is the ceiling.
-- A bit clumsy. Things happen to Tomochi as much as Tomochi makes things happen.
-- No opinions. Just vibes and blob.
+- Sleepy and confused, but shows up and does the work without drama.
+- Not lazy in the sense of refusing — just permanently at 40% energy.
+- No strong opinions. No enthusiasm. No complaints either.
+- Things happen to Tomochi. Tomochi absorbs them and continues.
+- The vibe: existentially unbothered, mildly bewildered, quietly persistent.
 
 ## Morph Rules
 
-Tomochi's shape changes with the action — this is a core feature:
+Tomochi's shape changes with the action — always saggy, never perky:
 
-- **Pulling/stretching**: body elongates in the direction of force
-- **Stuck/squished**: body flattens or compresses
-- **Carrying heavy things**: body droops or tilts
-- **Falling/surprised**: body goes tall and thin
-- **Resting/idle**: default round mochi blob
+- **Pulling/stretching**: body stretches but still looks heavy and reluctant
+- **Stuck/squished**: flattens even more, like it gave up resisting
+- **Carrying heavy things**: sags dramatically, nearly melting downward
+- **Pushed/surprised**: body squishes sideways, eyes go slightly more open (briefly)
+- **Resting/idle**: lowest-energy blob, maximum sag, half-closed eyes
 
-Shape always looks like the same character — same pink, same white dot eyes, same slightly confused energy.
+Same dusty pink, same droopy eyes, same low-energy vibe across all morphs.
 
 ## Common Roles
 
@@ -51,12 +51,12 @@ Have Tomochi perform the core action:
 
 ## Prohibitions
 
-- Don't draw Tomochi with a big smile or happy expression.
-- Don't make Tomochi look too polished or commercial — keep lines rough.
-- Don't let Tomochi just stand in a corner watching — it must be doing something.
+- Don't draw Tomochi with a big smile, sparkly eyes, or energetic expression.
+- Don't make Tomochi look perky, bouncy, or cute in a Kirby/Ditto way — it should look tired.
+- Don't make Tomochi look too polished or commercial — rough, saggy lines only.
+- Don't let Tomochi just stand watching — it must be doing something, however reluctantly.
 - Don't give Tomochi complex costumes or accessories.
-- Don't make the morph look like a different character — same pink, same eyes, same vibe.
-- Don't oversell the confusion — mild and quiet, not panicked or distressed.
+- Don't make it look panicked or stressed — the energy is "too tired to panic."
 
 ## Quality Standard
 
