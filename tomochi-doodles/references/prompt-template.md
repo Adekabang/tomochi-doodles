@@ -9,7 +9,7 @@ Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten annotations in English or Bahasa Indonesia. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
-Tomochi, a small soft-saggy blob creature — shaped like Gudetama (the lazy egg): slightly deflated, droopy, gravity-affected oval lump. Not round and perky — low, flat, and sagging. Dusty pink color (muted warm rose, like faded blush — not pastel, not vibrant). Half-lidded droopy eyes, permanently sleepy-confused expression, like it just woke up and doesn't fully understand the situation but is doing the task anyway. Short limp arms that extend reluctantly. Body sags more under weight, stretches heavily when pulled, flattens when squished. Same dusty pink, same droopy eyes, same low-energy vibe in all poses. Tomochi must perform the core conceptual action, not decorate the scene. Not cute-perky, not panicked — sleepy, confused, and quietly persistent.
+Tomochi — same construction as a classic simple hand-drawn blob character: small solid-fill round/bean body, thin stick legs, small thin arms. Dusty pink color (muted warm rose / faded blush — not pastel, not vibrant, think #D4A5A5). Two small white dot eyes, slightly uneven or offset to show permanent confusion. Small simple V-shaped or squiggly brow marks above the eyes — visibly puzzled expression. Head may tilt slightly. The face reads "I have no idea what's going on" while the body is mid-task. Slightly rough hand-drawn outline, not perfectly smooth. Tomochi must perform the core conceptual action — confused face and gesture while doing the work, not standing beside it watching. Not sleepy, not panicked, not happy — just genuinely confused and persistently working.
 
 Theme:
 {article illustration theme}
@@ -47,5 +47,5 @@ Edit the provided image. Remove only the handwritten title "{text to remove}" an
 Enhance Tomochi's involvement:
 
 ```text
-Regenerate with same core meaning and layout, but make Tomochi the action subject, not decoration. Tomochi's saggy body should morph to fit — drooping under weight, stretching heavily when pulled, squishing flat when stuck. Keep it clean, sparse, hand-drawn. Tomochi looks sleepy and confused but is doing the work anyway. Not cute-perky, not panicked.
+Regenerate with same core meaning and layout, but make Tomochi the action subject, not decoration. Tomochi should be mid-task with a visibly confused expression — furrowed brow marks, slightly uneven eyes, head possibly tilted or a small arm gesture showing puzzlement — while the body is already doing the work. Keep it clean, sparse, hand-drawn. Not sleepy, not panicked — confused and persistent.
 ```
