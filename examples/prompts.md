@@ -1,6 +1,8 @@
 # Prompt Examples
 
-The prompts below can be copied directly into Codex. Works for articles in English or Bahasa Indonesia.
+Prompts ready to copy into Codex. Annotations auto-match the article's language.
+
+---
 
 ## Planning Only (No Generation)
 
@@ -19,75 +21,117 @@ For each image, specify:
 <paste article>
 ```
 
-## Article Inline Illustrations
+---
+
+## Tech / AI / Dev Tools Article
 
 ```text
-Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this article.
-Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten annotations.
-Each image covers only one core structure — no PPT infographics, no cute cartoons.
+Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this tech article.
+16:9 landscape, pure white background, black hand-drawn line art.
+Focus on: where the automation kicks in, what breaks without proper setup, before/after workflow contrast.
+Tomochi should interact with the machines/tools — not just stand next to them.
 
 <paste article>
 ```
 
-## Long Article Illustration Strategy
+## AI Workflow or Tool Comparison
 
 ```text
-Use $tomochi-doodles to plan an illustration strategy for this long article.
-Don't illustrate evenly — pick cognitive anchors only: core judgments, input/output loops, before/after contrasts, common pitfalls, handoff paths.
-Default 6–8 images, output shot list only, do not generate images.
+Use $tomochi-doodles to generate one image showing the difference between doing this manually vs. with AI automation.
+Left side: scattered/slow. Right side: streamlined. Tomochi in the middle or on the right side making it work.
+Annotations should be short — label the key moment, not every step.
+```
+
+---
+
+## Startup / Business Article
+
+```text
+Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this startup/business article.
+16:9 landscape, pure white background.
+Focus on: decision points, assumption vs. reality gaps, resource tradeoffs, growth levers.
+Use Concept Metaphor or Before-After Contrast structures. Keep it absurd but sharp.
 
 <paste article>
 ```
 
-## Single Concept Image
+## Single Business Insight
 
 ```text
-Use $tomochi-doodles to generate one 16:9 inline illustration for this idea:
+Use $tomochi-doodles to generate one 16:9 illustration for this idea:
 
-Trust isn't shouted — it's laid down one piece of evidence at a time.
+Most startups don't fail from competition — they fail from running out of reasons to keep going.
 
-The image should be absurd but clean, and Tomochi must perform the core action.
-Keep annotations to at most 5 short labels.
+Tomochi must carry the core meaning. Absurd metaphor, clean layout, at most 4 short annotations.
 ```
 
-## Workflow Theme
+---
+
+## Productivity / PKM Article
 
 ```text
-Use $tomochi-doodles to generate one image for "turning one piece of raw material into three types of content: traffic, trust, and conversion."
-Don't draw a formal flowchart, don't copy old examples.
-Please reinvent a new low-tech metaphor, with Tomochi participating in the core action.
+Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this productivity article.
+Focus on: system layers, input→process→output loops, scattered vs. organized contrast, habit breakdown points.
+Method Layers or Workflow structures preferred. Tomochi should be inside the system doing something.
+
+<paste article>
 ```
 
-## Edit Image: Remove Title
+## PKM System Diagram
 
 ```text
-Use $tomochi-doodles to edit this image.
-Remove the "Workflow / Flowchart" title and underline in the top-left corner, keep everything else unchanged.
-Do not add any new text or objects.
+Use $tomochi-doodles to generate one image showing a personal knowledge management system:
+capture → process → output. Tomochi is somewhere in the middle, looking slightly confused but handling it.
+Keep annotations minimal — 3 to 5 words max per label.
 ```
 
-## Edit Image: Enhance Tomochi's Involvement
+---
+
+## Personal Essay / Opinion Piece
 
 ```text
-Use $tomochi-doodles — this image has the right direction, but Tomochi feels a bit decorative.
-Keep the core meaning the same, regenerate a version: make Tomochi the one truly driving the structure.
-Make it a bit stranger, but still pure white, clean, and minimal text.
+Use $tomochi-doodles to generate 3 Tomochi absurd inline illustrations for this personal essay.
+Focus on: the central metaphor, an emotional state shift, the core insight moment.
+Mini Comic Panels or Concept Metaphor structures. Tomochi's confused expression fits well here.
+Don't make it too diagram-y — this is an essay, not a tutorial.
+
+<paste article>
 ```
 
-## Generate a Style Sample Set
-
-```text
-Use $tomochi-doodles to output 5 Tomochi inline illustration concepts for different themes.
-Themes cover: information overload, product validation, content compounding, solo business, trust building.
-Generate each separately — do not combine into one image.
-```
+---
 
 ## Bahasa Indonesia Article
 
 ```text
-Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this article written in Bahasa Indonesia.
-Requirements: 16:9 landscape, pure white background, black hand-drawn line art.
-Annotations should be short Bahasa Indonesia words or phrases — at most 5 per image.
+Use $tomochi-doodles to generate 4 Tomochi absurd inline illustrations for this Bahasa Indonesia article.
+16:9 landscape, pure white background, black hand-drawn line art.
+Annotations in Bahasa Indonesia — at most 5 short labels per image.
 
 <tempel artikel>
+```
+
+---
+
+## Edit: Remove Title
+
+```text
+Use $tomochi-doodles to edit this image.
+Remove the title/label in the top-left corner, keep everything else unchanged.
+Do not add any new text or objects.
+```
+
+## Edit: Enhance Tomochi's Involvement
+
+```text
+Use $tomochi-doodles — Tomochi in this image feels decorative.
+Keep the core meaning the same, regenerate: make Tomochi the one doing the strange work.
+Tomochi's body should morph to fit the action. Still white background, clean, minimal text.
+```
+
+## Style Sample Set
+
+```text
+Use $tomochi-doodles to output 5 Tomochi inline illustration concepts for different themes.
+One each for: AI workflow, startup decision, productivity system, personal insight, before/after contrast.
+Generate each separately — do not combine into one image.
 ```

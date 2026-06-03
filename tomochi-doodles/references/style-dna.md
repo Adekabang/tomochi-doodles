@@ -2,9 +2,9 @@
 
 ## One Line
 
-Pure white, minimal, hand-drawn, lots of space, restrained, absurd, product-sketch feeling, Chinese handwriting feeling, structurally clear but not instructional.
+Pure white, minimal, hand-drawn, lots of space, restrained, absurd, product-sketch feeling, handwriting feeling, structurally clear but not instructional. Works for articles written in English or Bahasa Indonesia.
 
-Like a quick explanation sketch drawn on paper by someone who has long worked in AI, product, design, and dev tools. Works for articles written in English or Bahasa Indonesia.
+Like a quick explanation sketch drawn on paper by someone who has long worked in AI, product, design, and dev tools.
 
 ## Must
 
@@ -18,7 +18,8 @@ Like a quick explanation sketch drawn on paper by someone who has long worked in
 
 ## Colors
 
-- Black: main line art, characters, frame lines, structure, main text, primary objects.
+- Black: main line art, frame lines, structure, main text, primary objects.
+- Pink: Tomochi's body (consistent across all images).
 - Red: key annotations, problems, emotional points, critical reminders, results.
 - Orange: main flow, paths, arrows, automation direction, movement from A to B.
 - Blue: supplementary notes, mental state, system state, second-level explanation, AI/assistant/automation hints.
@@ -46,3 +47,9 @@ Blue is not required in every image. Use color with restraint — less is more.
 Absurd, creative, interesting, clean and refreshing, imaginative.
 
 Not cute, not childish, not complex, not rigid.
+
+## Platform Adjustments
+
+- **Blog / Website**: default style works as-is. Most freedom.
+- **LinkedIn**: increase contrast slightly — Tomochi's pink should be bolder, annotations slightly larger/bolder. Image compresses on feed, so keep composition even simpler.
+- **Notion**: works well with the default. Can afford slightly more detail since viewers zoom in on desktop.

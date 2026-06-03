@@ -1,22 +1,22 @@
 ---
-name: ian-xiaohei-illustrations
-description: Generate Ian-style inline illustrations for English and Bahasa Indonesia articles. Use when the user asks to generate "absurd", "Xiaohei", "hand-drawn", "inline illustration", "article illustration", "illustration suggestion", "shot list", "remove title/edit image" for English or Bahasa Indonesia articles, posts, blogs, Notion documents, workflow docs, methodologies, flows, structures, states, metaphors, or ideas; default visual style uses the Xiaohei IP, pure white hand-drawn art, sparse red/orange/blue annotations, clean and creative.
+name: tomochi-doodles
+description: Generate Tomochi-style inline illustrations for English and Bahasa Indonesia articles. Use when the user asks to generate "absurd", "Tomochi", "hand-drawn", "inline illustration", "article illustration", "illustration suggestion", "shot list", "remove title/edit image" for English or Bahasa Indonesia articles, posts, blogs, Notion documents, workflow docs, methodologies, flows, structures, states, metaphors, or ideas; default visual style uses the Tomochi IP, pure white hand-drawn art, sparse red/orange/blue annotations, clean and creative.
 ---
 
-# Ian Xiaohei Absurd Inline Illustrations
+# Tomochi Doodles
 
 ## Core Purpose
 
 Design and generate 16:9 landscape inline illustrations for English and Bahasa Indonesia articles. The goal is not commercial illustrations, PPT infographics, or cute cartoons — it's turning key judgments, flows, structures, states, or metaphors from the article into clean, absurd, creative, readable-but-not-instructional hand-drawn explanation images.
 
-The default visual IP is "Xiaohei": solid black, white dot eyes, thin legs, blank expression, seriously doing something absurd but plausible. Xiaohei must participate in the core action of the image — not just stand beside the diagram as decoration.
+The default visual IP is "Tomochi": solid pink blob, white dot eyes, thin legs, blank expression, seriously doing something absurd but plausible — like Ditto but deadpan. Tomochi must participate in the core action of the image — not just stand beside the diagram as decoration.
 
 ## Read These References
 
 Load as needed — do not load all at once:
 
 - `references/style-dna.md`: Style DNA, colors, text, prohibitions.
-- `references/xiaohei-ip.md`: Xiaohei IP appearance, personality, action library, prohibitions.
+- `references/tomochi-ip.md`: Tomochi IP appearance, personality, action library, prohibitions.
 - `references/composition-patterns.md`: Structure types, original metaphor methods, anti-copy rules.
 - `references/prompt-template.md`: Single-image generation prompt template.
 - `references/qa-checklist.md`: Post-generation check and iteration rules.
@@ -33,7 +33,16 @@ First read the user's article, link, Notion page, Markdown file, or screenshot c
 - Which content is suitable for image explanation
 - Which parts are text-only and don't need images
 
-Don't illustrate everything evenly. Prioritize "cognitive anchors" such as: core judgments, two breakpoints, input/output loops, branching, before/after contrasts, one-thing-many-uses, handoff paths, common pitfalls, and character state changes.
+Don't illustrate everything evenly. Prioritize "cognitive anchors" based on the article type:
+
+- **Tech / AI / Dev tools**: system diagrams with a twist, tool workflow before/after, the moment where automation kicks in, what breaks when something isn't set up right
+- **Startup / Business**: decision points, the gap between assumption and reality, resource tradeoffs, growth levers vs. common traps
+- **Productivity / PKM**: system layers, input→process→output loops, the difference between scattered and organized, habit/workflow breakdowns
+- **Personal / Essay**: emotional state transitions, a metaphor for the central insight, the "before I understood this" vs "after" moment
+
+Universal cognitive anchors (any topic): core judgment, two-state contrast, input/output loop, handoff path, common pitfall, role/responsibility map.
+
+**Language**: auto-detect from the article. If the article is in Bahasa Indonesia, annotations should be in Bahasa Indonesia. If English, annotations in English. If mixed, follow the dominant language.
 
 ### 2. Output Illustration Strategy First
 
@@ -43,7 +52,7 @@ If the user only says "analyze how to illustrate / think about which parts need 
 - Image theme
 - Core meaning
 - Structure type
-- What Xiaohei is doing in the image
+- What Tomochi is doing in the image
 - Suggested elements
 - Suggested annotation words (English or Bahasa Indonesia)
 
@@ -60,16 +69,16 @@ Each image explains only one core structure. Prompts must include:
 - Black hand-drawn line art
 - Sparse red/orange/blue handwritten annotations in English or Bahasa Indonesia
 - Lots of blank space
-- Xiaohei as the core action subject
+- Tomochi as the core action subject
 - Prohibit PPT, commercial illustrations, cute/childish, complex architecture, top-left type titles
 
-Do not copy past examples. Examples only provide style density and Xiaohei's involvement mode — do not directly reuse these existing compositions: conveyor belt breakpoints, Xiaohei pulling judgment lever inside content machine, Xiaohei becoming a funnel sorting traffic/trust/conversion, Xiaohei slicing the material fish, Xiaohei leading the handoff path, Xiaohei pulling three-layer information sources, three Xiaoheis holding megaphone/building bridge/opening door, Xiaohei stamping the handoff copy toolbox, Xiaohei holding sign watching common pitfalls path — unless the user explicitly asks to recreate a specific image. Each time, reinvent a strange-but-plausible metaphor fresh from the current article.
+Do not copy past examples. Examples only provide style density and Tomochi's involvement mode — do not directly reuse these existing compositions: conveyor belt breakpoints, Tomochi pulling judgment lever inside content machine, Tomochi becoming a funnel sorting traffic/trust/conversion, Tomochi slicing the material fish, Tomochi leading the handoff path, Tomochi pulling three-layer information sources, three Tomochis holding megaphone/building bridge/opening door, Tomochi stamping the handoff copy toolbox, Tomochi holding sign watching common pitfalls path — unless the user explicitly asks to recreate a specific image. Each time, reinvent a strange-but-plausible metaphor fresh from the current article.
 
 ### 4. Review and Iterate
 
 After generation, check `references/qa-checklist.md`. Regenerate or locally edit if:
 
-- Xiaohei is just decorative
+- Tomochi is just decorative
 - Canvas is too full
 - Looks like a flowchart/PPT
 - Too much annotation text or severe typos/errors
