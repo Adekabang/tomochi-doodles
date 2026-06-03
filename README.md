@@ -1,192 +1,192 @@
 # Ian Xiaohei Illustrations
 
-> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。
+> Turn the judgments, flows, states, and metaphors from Chinese articles into white-background, hand-drawn, absurd-but-clean inline illustrations.
 >
-> 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill
+> 16:9 landscape | Xiaohei IP | pure white hand-drawn | sparse red/orange/blue Chinese annotations | Codex Skill
 
 ---
 
-## 这个仓库是什么
+## What is this repository
 
-Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+Ian Xiaohei Illustrations is a Codex Skill for guiding AI agents to generate inline illustrations for Chinese articles, posts, blogs, Notion documents, and methodology content.
 
-它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
+It is not a general illustration prompt, nor a PPT infographic template. Its core goal is: first understand the cognitive anchors in the article, then turn one judgment, flow, structure, state, or metaphor into a memorable 16:9 hand-drawn explanation image.
 
-默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。
+The default visual IP is "Xiaohei": a solid black character with white dot eyes, thin legs, and a blank expression. Xiaohei is not a mascot, not a sticker, not a corner decoration — but an absurd worker seriously participating in system operations.
 
-一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**
-
----
-
-## 适合谁用
-
-特别适合：
-
-- 写中文文章，需要正文配图和文章插图的人
-- 做知识型内容、方法论内容、AI 工作流内容的人
-- 想把抽象判断画成具体隐喻的人
-- 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人
-- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人
-
-不适合：
-
-- 想要商业插画、品牌 KV 或精致扁平插画的人
-- 想要传统 PPT 信息图、复杂架构图或流程图的人
-- 想要儿童卡通、可爱 IP、表情包风格的人
-- 想把大量正文、长段解释或完整课程页塞进一张图里的人
-- 需要严格可编辑矢量源文件的人
+One sentence: **Have AI not just "add an image," but actually draw a key cognitive action from the article.**
 
 ---
 
-## 它会产出什么
+## Who is it for
 
-默认输出：
+Especially suited for:
 
-- 16:9 横版正文配图
-- 一篇文章的 4-8 张 shot list
-- 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
+- People writing Chinese articles who need inline illustrations
+- People making knowledge content, methodology content, or AI workflow content
+- People who want to turn abstract judgments into concrete metaphors
+- People who want an illustration style that's lighter, stranger, and more personally recognizable than PPT infographics
+- People using Codex for content production who want to stably reuse a consistent visual language
 
-默认不输出：
+Not suited for:
+
+- People wanting commercial illustrations, brand KVs, or polished flat illustrations
+- People wanting traditional PPT infographics, complex architecture diagrams, or flowcharts
+- People wanting children's cartoons, cute IPs, or meme-style art
+- People wanting to cram large amounts of body text, long explanations, or full course pages into one image
+- People needing strictly editable vector source files
+
+---
+
+## What it produces
+
+Default output:
+
+- 16:9 landscape inline illustrations
+- A shot list of 4–8 images for one article
+- For each image: theme, core meaning, structure type, Xiaohei's action, and suggested Chinese annotations
+- Final PNG files saved to `assets/<article-slug>-illustrations/` in the workspace
+
+Default non-output:
 
 - PPTX / PDF / Keynote
-- SVG / HTML / Canvas 可编辑图
-- 商业海报或封面 KV
-- 大段文字型信息图
+- SVG / HTML / Canvas editable files
+- Commercial posters or cover KVs
+- Dense text-based infographics
 
 ---
 
-## 视觉风格
+## Visual Style
 
-这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格：
+This skill uses Ian's "Xiaohei Absurd Inline Illustration" style by default:
 
-- 纯白背景，不要纸纹、米色、阴影、渐变
-- 黑色手绘线稿，细线，轻微抖动
-- 大量留白，主体只占画面约 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
-- 一张图只表达一个核心动作、结构、状态或隐喻
-- 小黑必须参与核心动作，不能只是装饰
-- 怪诞、有创意、清爽，但不幼稚、不卖萌
-
----
-
-## 示例效果
-
-### 两个断点
-
-![两个断点](examples/images/01-two-breakpoints.png)
-
-### 按目的分拣
-
-![按目的分拣](examples/images/02-sort-by-purpose.png)
-
-### 一鱼多吃
-
-![一鱼多吃](examples/images/03-one-fish-many-uses.png)
-
-### 承接路径
-
-![承接路径](examples/images/04-handoff-path.png)
-
-### 信息井
-
-![信息井](examples/images/05-information-well.png)
-
-### 想法压机
-
-![想法压机](examples/images/06-idea-press.png)
-
-### 内容发酵
-
-![内容发酵](examples/images/07-content-fermentation.png)
-
-### 信任桥
-
-![信任桥](examples/images/08-trust-bridge.png)
-
-这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
+- Pure white background — no paper texture, cream, shadow, or gradient
+- Black hand-drawn line art, thin lines, slight wobble
+- Lots of empty space, main subject occupies only about 40%–60% of the canvas
+- Sparse red, orange, and blue Chinese handwritten annotations
+- One image expresses only one core action, structure, state, or metaphor
+- Xiaohei must participate in the core action, not just decorate
+- Absurd, creative, clean — not childish, not cute
 
 ---
 
-## 安装
+## Example Output
 
-克隆仓库：
+### Two Breakpoints
+
+![Two Breakpoints](examples/images/01-two-breakpoints.png)
+
+### Sort by Purpose
+
+![Sort by Purpose](examples/images/02-sort-by-purpose.png)
+
+### One Fish, Many Uses
+
+![One Fish, Many Uses](examples/images/03-one-fish-many-uses.png)
+
+### Handoff Path
+
+![Handoff Path](examples/images/04-handoff-path.png)
+
+### Information Well
+
+![Information Well](examples/images/05-information-well.png)
+
+### Idea Press
+
+![Idea Press](examples/images/06-idea-press.png)
+
+### Content Fermentation
+
+![Content Fermentation](examples/images/07-content-fermentation.png)
+
+### Trust Bridge
+
+![Trust Bridge](examples/images/08-trust-bridge.png)
+
+These images are style calibration examples, not composition templates. When using the skill, always reinvent metaphors from the current article — do not copy objects or layouts from old examples.
+
+---
+
+## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git
 cd ian-xiaohei-illustrations
 ```
 
-复制 skill 到 Codex skills 目录：
+Copy the skill to the Codex skills directory:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-安装后，在 Codex 里使用：
+After installation, use in Codex:
 
 ```text
-Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。
+Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei absurd inline illustrations for this Chinese article.
 ```
 
 ---
 
-## 怎么用
+## How to Use
 
-### 只做配图规划
-
-```text
-Use $ian-xiaohei-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、小黑在做什么、建议中文标注词。
-
-<粘贴文章>
-```
-
-### 直接生成正文配图
+### Planning Only (No Generation)
 
 ```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
+Use $ian-xiaohei-illustrations — do not generate images yet.
+Analyze this article for illustration opportunities and output a shot list of about 5 images.
+For each image, specify: where to place it, theme, core meaning, structure type, what Xiaohei is doing, suggested Chinese annotation words.
 
-<粘贴文章>
+<paste article>
 ```
 
-### 为单个概念生成一张图
+### Generate Inline Illustrations Directly
 
 ```text
-Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
-画面要怪诞但清爽，小黑必须承担核心动作。
+Use $ian-xiaohei-illustrations to generate 4 Xiaohei absurd inline illustrations for this article.
+Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+
+<paste article>
 ```
 
-### 去掉图里的标题或错误文字
+### Generate One Image for a Single Concept
 
 ```text
-Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流程图”标题，其他内容保持不变。
+Use $ian-xiaohei-illustrations to generate one inline illustration for "Trust isn't shouted — it's laid down one piece of evidence at a time."
+The image should be absurd but clean, and Xiaohei must perform the core action.
 ```
 
-更多示例见 [examples/prompts.md](examples/prompts.md)。
+### Remove a Title or Incorrect Text from an Image
+
+```text
+Use $ian-xiaohei-illustrations to edit this image — remove the "Flowchart" title in the top-left corner, keep everything else unchanged.
+```
+
+More examples in [examples/prompts.md](examples/prompts.md).
 
 ---
 
-## 工作流程
+## Workflow
 
-这个 skill 的流程是：
+This skill's process is:
 
-1. 读取文章、Markdown、Notion 内容、截图或用户给的主题
-2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落
-3. 先输出 shot list：每张图只选一个认知锚点
-4. 为每张图选择结构类型：Workflow、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线或小漫画分镜
-5. 重新发明一个低科技、怪诞但成立的物理隐喻
-6. 让小黑承担核心动作
-7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、小黑动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
+1. Read the article, Markdown, Notion content, screenshot, or user-provided theme
+2. Extract core ideas, cognitive turning points, flow structures, and paragraphs suitable for visualization
+3. Output shot list first: each image covers only one cognitive anchor
+4. Choose structure type per image: Workflow, System Partial, Before/After Contrast, Character State, Concept Metaphor, Method Layers, Map Route, or Mini Comic Panels
+5. Reinvent a low-tech, absurd but plausible physical metaphor
+6. Make Xiaohei the agent of the core action
+7. Call the image model individually per image
+8. Check QA checklist: white background, blank space, Xiaohei action, Chinese annotations, non-PPT feel, no old-case copies
+9. Save final PNGs and report usage and paths
 
 ---
 
-## 目录结构
+## Directory Structure
 
 ```text
 .
@@ -215,64 +215,64 @@ Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流�
         └── qa-checklist.md
 ```
 
-真正需要安装到 Codex 的是子目录：
+Only the subdirectory needs to be installed into Codex:
 
 ```text
 ian-xiaohei-illustrations/
 ```
 
-根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
+The root-level README, LICENSE, NOTICE, and examples are GitHub documentation.
 
 ---
 
-## 注意事项
+## Notes
 
-- 图片里的中文文字越短越稳定。
-- 每张图只讲一个核心结构，不要把文章做成说明书。
-- 小黑必须承担核心动作；如果去掉小黑画面仍然完全成立，说明小黑太装饰了。
-- 示例图只用于校准线条密度、留白、颜色克制和小黑参与方式，不要复刻构图。
-- AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
-- 如果中文错字严重，优先减少标注词并重生成。
-
----
-
-## 相关项目
-
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — 中文手绘技术 PPT-style 页面图生成 Skill
-- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Claude Code Skills / Agents / Plugins 精选合集
-- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI 个人知识库搭建指南
+- Shorter Chinese text inside images is more stable.
+- Each image covers only one core structure — don't turn the article into an instruction manual.
+- Xiaohei must carry the core action; if removing Xiaohei leaves the image fully intact, Xiaohei is too decorative.
+- Example images are only for calibrating line density, empty space, color restraint, and Xiaohei's involvement — do not copy compositions.
+- AI image models may produce typos, hallucinated labels, style drift, or extra titles — review after generation.
+- If Chinese typos are severe, reduce annotation count and regenerate.
 
 ---
 
-## 关于作者
+## Related Projects
 
-**Ian (伊恩)** — 产品设计师 / 一人公司实践者 / AI Builder
+- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — Chinese hand-drawn technical PPT-style page illustration generation Skill
+- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Curated collection of Claude Code Skills / Agents / Plugins
+- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI personal knowledge base setup guide
 
-用 AI 团队打造一人公司。
+---
+
+## About the Author
+
+**Ian** — Product Designer / Solo Business Practitioner / AI Builder
+
+Building a one-person company with an AI team.
 
 - GitHub: [helloianneo](https://github.com/helloianneo)
 - X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
-- 网站: [www.ianneo.xyz](https://www.ianneo.xyz)
-- 微信: `ianneoxyz`
-- 邮箱: hello.neoc@gmail.com
+- Website: [www.ianneo.xyz](https://www.ianneo.xyz)
+- WeChat: `ianneoxyz`
+- Email: hello.neoc@gmail.com
 
 ---
 
-## 继续探索
+## Keep Exploring
 
-这套小黑配图 Skill，只是我用 AI 搭建个人生产系统里的一个小工具。
+This Xiaohei illustration Skill is just one small tool in the personal production system I'm building with AI.
 
-如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz)。
+If you're also using AI for content, knowledge bases, workflows, or productization, visit my website: [www.ianneo.xyz](https://www.ianneo.xyz).
 
-只想先观察，可以关注我的 [X/Twitter](https://x.com/ianneo_ai)。
+If you just want to observe first, follow me on [X/Twitter](https://x.com/ianneo_ai).
 
-想了解 Indie Builders Club，加微信：`ianneoxyz`，备注「OPC」。
+For Indie Builders Club, add WeChat: `ianneoxyz`, note "OPC".
 
 <p>
-  <img src="assets/ian-wechat-qr.jpg" alt="Ian 微信二维码" width="120">
+  <img src="assets/ian-wechat-qr.jpg" alt="Ian WeChat QR Code" width="120">
 </p>
 
-不方便扫码也可以搜索微信：`ianneoxyz`。
+Can't scan the QR code? Search WeChat: `ianneoxyz`.
 
 ---
 
