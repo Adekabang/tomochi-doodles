@@ -10,7 +10,7 @@
 - Image is absurd, creative, and interesting.
 - Clean and minimal — main subject does not exceed about 60% of the canvas.
 - One image explains only one core structure.
-- Chinese annotations are few, short, and readable.
+- Annotations are few, short, and readable (English or Bahasa Indonesia).
 - Orange is used only for the main path or arrows.
 - Red is used only for key points, problems, reminders, or results.
 - Blue is used only for supplementary notes, feedback, or system state.
@@ -26,7 +26,7 @@ Regenerate or locally edit if any of the following appear:
 - Text has become a long explanation.
 - Background has paper texture, shadows, gradients, cream color, or noise.
 - Real UI screenshot or tech-UI interface.
-- Severe Chinese typos or unreadable annotations.
+- Severe text errors or unreadable annotations.
 - Image is too rigid, with no absurd metaphor.
 - Too similar in composition to old examples in `assets/examples/`.
 
@@ -37,7 +37,7 @@ Regenerate or locally edit if any of the following appear:
 - Too cute: emphasize deadpan, blank serious expression, not cute, not mascot.
 - Too PPT: remove title, borders, grid layout, and excess arrows; switch to a hand-drawn scene.
 - Too similar to old examples: keep the core meaning, swap the main object and Xiaohei's action.
-- Text errors: prefer local editing; if extensive, regenerate and reduce annotation count.
+- Annotation errors: prefer local editing; if extensive, regenerate and reduce annotation count.
 
 ## Delivery Standard
 

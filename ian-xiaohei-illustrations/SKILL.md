@@ -1,13 +1,13 @@
 ---
 name: ian-xiaohei-illustrations
-description: Generate Ian-style Chinese article inline illustrations. Use when the user asks to generate "absurd", "Xiaohei", "hand-drawn", "inline illustration", "article illustration", "illustration suggestion", "shot list", "remove title/edit image" for Chinese articles, posts, blogs, Notion documents, workflow docs, methodologies, flows, structures, states, metaphors, or ideas; default visual style uses the Xiaohei IP, pure white hand-drawn art, sparse red/orange/blue annotations, clean and creative.
+description: Generate Ian-style inline illustrations for English and Bahasa Indonesia articles. Use when the user asks to generate "absurd", "Xiaohei", "hand-drawn", "inline illustration", "article illustration", "illustration suggestion", "shot list", "remove title/edit image" for English or Bahasa Indonesia articles, posts, blogs, Notion documents, workflow docs, methodologies, flows, structures, states, metaphors, or ideas; default visual style uses the Xiaohei IP, pure white hand-drawn art, sparse red/orange/blue annotations, clean and creative.
 ---
 
 # Ian Xiaohei Absurd Inline Illustrations
 
 ## Core Purpose
 
-Design and generate 16:9 landscape inline illustrations for Chinese articles. The goal is not commercial illustrations, PPT infographics, or cute cartoons — it's turning key judgments, flows, structures, states, or metaphors from the article into clean, absurd, creative, readable-but-not-instructional hand-drawn explanation images.
+Design and generate 16:9 landscape inline illustrations for English and Bahasa Indonesia articles. The goal is not commercial illustrations, PPT infographics, or cute cartoons — it's turning key judgments, flows, structures, states, or metaphors from the article into clean, absurd, creative, readable-but-not-instructional hand-drawn explanation images.
 
 The default visual IP is "Xiaohei": solid black, white dot eyes, thin legs, blank expression, seriously doing something absurd but plausible. Xiaohei must participate in the core action of the image — not just stand beside the diagram as decoration.
 
@@ -45,7 +45,7 @@ If the user only says "analyze how to illustrate / think about which parts need 
 - Structure type
 - What Xiaohei is doing in the image
 - Suggested elements
-- Suggested Chinese annotation words
+- Suggested annotation words (English or Bahasa Indonesia)
 
 Default 4–8 images. For short articles, 1–3; for long articles, don't exceed 9. Enough is enough — avoid turning the article body into a picture book.
 
@@ -55,10 +55,10 @@ If the user explicitly says "generate / output / make / create images", don't st
 
 Each image explains only one core structure. Prompts must include:
 
-- 16:9 landscape Chinese article illustration
+- 16:9 landscape article illustration
 - Pure white background
 - Black hand-drawn line art
-- Sparse red/orange/blue Chinese handwritten annotations
+- Sparse red/orange/blue handwritten annotations in English or Bahasa Indonesia
 - Lots of blank space
 - Xiaohei as the core action subject
 - Prohibit PPT, commercial illustrations, cute/childish, complex architecture, top-left type titles
@@ -72,7 +72,7 @@ After generation, check `references/qa-checklist.md`. Regenerate or locally edit
 - Xiaohei is just decorative
 - Canvas is too full
 - Looks like a flowchart/PPT
-- Too much Chinese text or severe typos
+- Too much annotation text or severe typos/errors
 - Top-left shows "Common Pitfalls / Flowchart / System Architecture" title
 - Art style is too cute, childish, or rigid
 - Background is not a clean white

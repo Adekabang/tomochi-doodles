@@ -1,14 +1,14 @@
 # Ian Xiaohei Illustrations
 
-> Turn the judgments, flows, states, and metaphors from Chinese articles into white-background, hand-drawn, absurd-but-clean inline illustrations.
+> Turn the judgments, flows, states, and metaphors from your articles into white-background, hand-drawn, absurd-but-clean inline illustrations.
 >
-> 16:9 landscape | Xiaohei IP | pure white hand-drawn | sparse red/orange/blue Chinese annotations | Codex Skill
+> 16:9 landscape | Xiaohei IP | pure white hand-drawn | sparse handwritten annotations | English & Bahasa Indonesia | Codex Skill
 
 ---
 
 ## What is this repository
 
-Ian Xiaohei Illustrations is a Codex Skill for guiding AI agents to generate inline illustrations for Chinese articles, posts, blogs, Notion documents, and methodology content.
+Ian Xiaohei Illustrations is a Codex Skill for guiding AI agents to generate inline illustrations for English and Bahasa Indonesia articles, posts, blogs, Notion documents, and methodology content.
 
 It is not a general illustration prompt, nor a PPT infographic template. Its core goal is: first understand the cognitive anchors in the article, then turn one judgment, flow, structure, state, or metaphor into a memorable 16:9 hand-drawn explanation image.
 
@@ -22,7 +22,7 @@ One sentence: **Have AI not just "add an image," but actually draw a key cogniti
 
 Especially suited for:
 
-- People writing Chinese articles who need inline illustrations
+- People writing articles in English or Bahasa Indonesia who need inline illustrations
 - People making knowledge content, methodology content, or AI workflow content
 - People who want to turn abstract judgments into concrete metaphors
 - People who want an illustration style that's lighter, stranger, and more personally recognizable than PPT infographics
@@ -44,7 +44,7 @@ Default output:
 
 - 16:9 landscape inline illustrations
 - A shot list of 4–8 images for one article
-- For each image: theme, core meaning, structure type, Xiaohei's action, and suggested Chinese annotations
+- For each image: theme, core meaning, structure type, Xiaohei's action, and suggested annotations
 - Final PNG files saved to `assets/<article-slug>-illustrations/` in the workspace
 
 Default non-output:
@@ -63,7 +63,7 @@ This skill uses Ian's "Xiaohei Absurd Inline Illustration" style by default:
 - Pure white background — no paper texture, cream, shadow, or gradient
 - Black hand-drawn line art, thin lines, slight wobble
 - Lots of empty space, main subject occupies only about 40%–60% of the canvas
-- Sparse red, orange, and blue Chinese handwritten annotations
+- Sparse red, orange, and blue handwritten annotations in English or Bahasa Indonesia
 - One image expresses only one core action, structure, state, or metaphor
 - Xiaohei must participate in the core action, not just decorate
 - Absurd, creative, clean — not childish, not cute
@@ -139,7 +139,7 @@ Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei absurd inline il
 ```text
 Use $ian-xiaohei-illustrations — do not generate images yet.
 Analyze this article for illustration opportunities and output a shot list of about 5 images.
-For each image, specify: where to place it, theme, core meaning, structure type, what Xiaohei is doing, suggested Chinese annotation words.
+For each image, specify: where to place it, theme, core meaning, structure type, what Xiaohei is doing, suggested annotation words.
 
 <paste article>
 ```
@@ -148,7 +148,7 @@ For each image, specify: where to place it, theme, core meaning, structure type,
 
 ```text
 Use $ian-xiaohei-illustrations to generate 4 Xiaohei absurd inline illustrations for this article.
-Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten annotations.
 
 <paste article>
 ```
@@ -181,7 +181,7 @@ This skill's process is:
 5. Reinvent a low-tech, absurd but plausible physical metaphor
 6. Make Xiaohei the agent of the core action
 7. Call the image model individually per image
-8. Check QA checklist: white background, blank space, Xiaohei action, Chinese annotations, non-PPT feel, no old-case copies
+8. Check QA checklist: white background, blank space, Xiaohei action, annotations readable, non-PPT feel, no old-case copies
 9. Save final PNGs and report usage and paths
 
 ---
@@ -227,12 +227,12 @@ The root-level README, LICENSE, NOTICE, and examples are GitHub documentation.
 
 ## Notes
 
-- Shorter Chinese text inside images is more stable.
+- Keep annotation text inside images short — fewer words are more stable.
 - Each image covers only one core structure — don't turn the article into an instruction manual.
 - Xiaohei must carry the core action; if removing Xiaohei leaves the image fully intact, Xiaohei is too decorative.
 - Example images are only for calibrating line density, empty space, color restraint, and Xiaohei's involvement — do not copy compositions.
 - AI image models may produce typos, hallucinated labels, style drift, or extra titles — review after generation.
-- If Chinese typos are severe, reduce annotation count and regenerate.
+- If annotation text errors are severe, reduce annotation count and regenerate.
 
 ---
 

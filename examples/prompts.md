@@ -1,6 +1,6 @@
 # Prompt Examples
 
-The prompts below can be copied directly into Codex.
+The prompts below can be copied directly into Codex. Works for articles in English or Bahasa Indonesia.
 
 ## Planning Only (No Generation)
 
@@ -14,7 +14,7 @@ For each image, specify:
 - Structure type
 - What Xiaohei is doing in the image
 - Suggested elements
-- Suggested Chinese annotation words
+- Suggested annotation words
 
 <paste article>
 ```
@@ -23,7 +23,7 @@ For each image, specify:
 
 ```text
 Use $ian-xiaohei-illustrations to generate 4 Xiaohei absurd inline illustrations for this article.
-Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+Requirements: 16:9 landscape, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten annotations.
 Each image covers only one core structure — no PPT infographics, no cute cartoons.
 
 <paste article>
@@ -47,7 +47,7 @@ Use $ian-xiaohei-illustrations to generate one 16:9 inline illustration for this
 Trust isn't shouted — it's laid down one piece of evidence at a time.
 
 The image should be absurd but clean, and Xiaohei must perform the core action.
-Keep Chinese annotations to at most 5, and keep them short.
+Keep annotations to at most 5 short labels.
 ```
 
 ## Workflow Theme
@@ -80,4 +80,14 @@ Make it a bit stranger, but still pure white, clean, and minimal text.
 Use $ian-xiaohei-illustrations to output 5 Xiaohei inline illustration concepts for different themes.
 Themes cover: information overload, product validation, content compounding, solo business, trust building.
 Generate each separately — do not combine into one image.
+```
+
+## Bahasa Indonesia Article
+
+```text
+Use $ian-xiaohei-illustrations to generate 4 Xiaohei absurd inline illustrations for this article written in Bahasa Indonesia.
+Requirements: 16:9 landscape, pure white background, black hand-drawn line art.
+Annotations should be short Bahasa Indonesia words or phrases — at most 5 per image.
+
+<tempel artikel>
 ```
