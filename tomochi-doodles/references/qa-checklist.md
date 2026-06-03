@@ -4,8 +4,8 @@
 
 - Is 16:9 landscape.
 - Background is clean white.
-- Has Xiaohei.
-- Xiaohei performs the core action, not just decorates.
+- Has Tomochi.
+- Tomochi performs the core action, not just decorates.
 - Did not copy old example compositions — generated a new metaphor for the current article.
 - Image is absurd, creative, and interesting.
 - Clean and minimal — main subject does not exceed about 60% of the canvas.
@@ -20,7 +20,8 @@
 Regenerate or locally edit if any of the following appear:
 
 - Top-left has "Common Pitfalls / Workflow / System Architecture / Roadmap" type title.
-- Xiaohei looks like a mascot, meme character, or cute cartoon.
+- Tomochi looks like a mascot, meme character, or cute cartoon.
+- Tomochi has no confused expression — face should look puzzled (furrowed brow, uneven eyes), not blank or happy.
 - Image looks like a PPT, course slide, or formal flowchart.
 - Too many elements, too many arrows, too many nodes.
 - Text has become a long explanation.
@@ -32,11 +33,11 @@ Regenerate or locally edit if any of the following appear:
 
 ## Iteration Methods
 
-- Too generic: make Xiaohei the action subject, add a strange-but-plausible metaphor.
+- Too generic: make Tomochi the action subject, add a strange-but-plausible metaphor.
 - Too complex: remove nodes, keep only one action and 3–5 short annotations.
-- Too cute: emphasize deadpan, blank serious expression, not cute, not mascot.
+- Too cute / too happy: add confused brow marks, uneven eyes, head tilt — not cute, not mascot, not blank.
 - Too PPT: remove title, borders, grid layout, and excess arrows; switch to a hand-drawn scene.
-- Too similar to old examples: keep the core meaning, swap the main object and Xiaohei's action.
+- Too similar to old examples: keep the core meaning, swap the main object and Tomochi's action.
 - Annotation errors: prefer local editing; if extensive, regenerate and reduce annotation count.
 
 ## Delivery Standard
