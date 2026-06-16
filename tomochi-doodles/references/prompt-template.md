@@ -2,6 +2,8 @@
 
 Generate each image individually. Replace template variables based on article content — do not combine multiple images into one.
 
+If your runtime can generate images, run each filled block directly. If it cannot (Claude Code, opencode, any text-only agent), output each filled block as a paste-ready prompt for an external image model — **Nano Banana (Gemini)** or **ChatGPT / DALL·E** — one block per image, and ask the model for 16:9.
+
 ```text
 Generate one standalone 16:9 horizontal article illustration.
 

@@ -2,13 +2,18 @@
 
 > Turn the judgments, flows, states, and metaphors from your articles into white-background, hand-drawn, absurd-but-clean inline illustrations.
 >
-> 16:9 landscape | Tomochi IP | pure white hand-drawn | sparse handwritten annotations | English & Bahasa Indonesia | Codex Skill
+> 16:9 landscape | Tomochi IP | pure white hand-drawn | sparse handwritten annotations | English & Bahasa Indonesia | Codex · Claude Code · opencode
 
 ---
 
 ## What is this repository
 
-Tomochi Doodles is a Codex Skill for guiding AI agents to generate inline illustrations for English and Bahasa Indonesia articles, posts, blogs, Notion documents, and methodology content.
+Tomochi Doodles is a Skill for guiding AI agents to generate inline illustrations for English and Bahasa Indonesia articles, posts, blogs, Notion documents, and methodology content.
+
+It works in two modes depending on the agent:
+
+- **Image-capable agents** (Codex with `image_gen`, a Custom GPT with DALL·E) read the article and generate the PNGs directly.
+- **Text-only agents** (Claude Code, opencode) read the article and output finished, paste-ready prompts. You run those prompts in **Nano Banana (Gemini)** or **ChatGPT** to get the images.
 
 It is not a general illustration prompt, nor a PPT infographic template. Its core goal is: first understand the cognitive anchors in the article, then turn one judgment, flow, structure, state, or metaphor into a memorable 16:9 hand-drawn explanation image.
 
@@ -130,6 +135,31 @@ After installation, use in Codex:
 Use $tomochi-doodles to design and generate 5 Tomochi absurd inline illustrations for this article.
 ```
 
+### Claude Code / opencode
+
+These agents can't generate images, so the skill outputs paste-ready prompts instead. Install the same `tomochi-doodles/` folder as a skill:
+
+```bash
+# Claude Code
+mkdir -p ~/.claude/skills
+cp -R ./tomochi-doodles ~/.claude/skills/
+
+# opencode
+mkdir -p ~/.config/opencode/skills
+cp -R ./tomochi-doodles ~/.config/opencode/skills/
+```
+
+Then ask:
+
+```text
+Use tomochi-doodles to design 5 Tomochi inline illustrations for this article,
+then give me paste-ready prompts I can run in Nano Banana or ChatGPT.
+
+<paste article>
+```
+
+The agent returns one prompt block per image. Paste each into Nano Banana (Gemini) or ChatGPT (image generation enabled), ask for 16:9, and save the results yourself.
+
 ---
 
 ## How to Use
@@ -180,7 +210,7 @@ This skill's process is:
 4. Choose structure type per image: Workflow, System Partial, Before/After Contrast, Character State, Concept Metaphor, Method Layers, Map Route, or Mini Comic Panels
 5. Reinvent a low-tech, absurd but plausible physical metaphor
 6. Make Tomochi the agent of the core action
-7. Call the image model individually per image
+7. Image-capable agent: call the image model individually per image. Text-only agent (Claude Code/opencode): output one paste-ready prompt block per image for Nano Banana or ChatGPT
 8. Check QA checklist: white background, blank space, Tomochi action, annotations readable, non-PPT feel, no old-case copies
 9. Save final PNGs and report usage and paths
 

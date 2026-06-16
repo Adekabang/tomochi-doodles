@@ -60,7 +60,14 @@ Default 4–8 images. For short articles, 1–3; for long articles, don't exceed
 
 ### 3. Single Image Generation
 
-If the user explicitly says "generate / output / make / create images", don't stop to ask for confirmation — use the built-in `image_gen` to generate each image individually. Do not combine multiple images into one.
+**First, check whether your runtime can generate images itself.**
+
+- **If it can** (e.g. Codex `image_gen`, a Custom GPT with DALL·E, an agent with an image tool): when the user says "generate / output / make / create images", don't stop to ask for confirmation — generate each image individually. Do not combine multiple images into one.
+- **If it cannot** (e.g. Claude Code, opencode, or any text-only agent): do not pretend to generate. Instead, for each image fill in the prompt template completely and output the finished, ready-to-paste prompt blocks so the user can run them in an external image model. State up front that these are paste-ready prompts. Recommend the target model:
+  - **Nano Banana (Gemini image generation)**: paste one filled prompt per image. Best for the hand-drawn line look; ask for 16:9.
+  - **ChatGPT / DALL·E**: paste one filled prompt per image into a chat with image generation enabled.
+
+  Output one fenced code block per image (one image per block, never combined) so each is copy-clean. After the blocks, give a one-line note per image on what it shows. Skip step 5 (Save and Deliver) — there are no generated files to save; the user runs the prompts and saves the results themselves.
 
 Each image explains only one core structure. Prompts must include:
 
