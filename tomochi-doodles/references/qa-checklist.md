@@ -21,7 +21,8 @@ Regenerate or locally edit if any of the following appear:
 
 - Top-left has "Common Pitfalls / Workflow / System Architecture / Roadmap" type title.
 - Tomochi looks like a mascot, meme character, or cute cartoon.
-- Tomochi has no confused expression — face should look puzzled (furrowed brow, uneven eyes), not blank or happy.
+- Face is doing the emotional work — it should be completely blank deadpan. Emotion must come from body posture + the absurd situation, not the face.
+- Body posture too neutral — if Tomochi stands upright and unbothered the joke dies; exaggerate the posture (slump, strain, squish, off-balance) to sell the predicament.
 - Image looks like a PPT, course slide, or formal flowchart.
 - Too many elements, too many arrows, too many nodes.
 - Text has become a long explanation.
@@ -35,7 +36,8 @@ Regenerate or locally edit if any of the following appear:
 
 - Too generic: make Tomochi the action subject, add a strange-but-plausible metaphor.
 - Too complex: remove nodes, keep only one action and 3–5 short annotations.
-- Too cute / too happy: add confused brow marks, uneven eyes, head tilt — not cute, not mascot, not blank.
+- Too cute / too happy: blank the face to deadpan and let the absurd situation carry the humor — exaggerate the body posture (slump, strain, squish, off-balance), not the face. Not cute, not mascot.
+- Emotion on the face: remove it. Face stays flat; push the posture and the predicament instead.
 - Too PPT: remove title, borders, grid layout, and excess arrows; switch to a hand-drawn scene.
 - Too similar to old examples: keep the core meaning, swap the main object and Tomochi's action.
 - Annotation errors: prefer local editing; if extensive, regenerate and reduce annotation count.

@@ -17,7 +17,7 @@ It works in two modes depending on the agent:
 
 It is not a general illustration prompt, nor a PPT infographic template. Its core goal is: first understand the cognitive anchors in the article, then turn one judgment, flow, structure, state, or metaphor into a memorable 16:9 hand-drawn explanation image.
 
-The default visual IP is "Tomochi": a solid pink blob character with white dot eyes, thin legs, and a blank expression — like Ditto but serious. Tomochi is not a mascot, not a sticker, not a corner decoration — but an absurd worker seriously participating in system operations.
+The default visual IP is "Tomochi": the original Xiaohei blob with one change — soft pink instead of black. Same shape, thin legs, plain white dot eyes, and the same completely blank deadpan face. All the humor comes from body posture and the absurd situation, never the face: a deadpan blob committed to a ridiculous task. Tomochi is not a mascot, not a sticker, not a corner decoration — but an absurd worker seriously participating in system operations.
 
 One sentence: **Have AI not just "add an image," but actually draw a key cognitive action from the article.**
 

@@ -9,7 +9,7 @@ description: Generate Tomochi-style inline illustrations for English and Bahasa 
 
 Design and generate 16:9 landscape inline illustrations for English and Bahasa Indonesia articles. The goal is not commercial illustrations, PPT infographics, or cute cartoons — it's turning key judgments, flows, structures, states, or metaphors from the article into clean, absurd, creative, readable-but-not-instructional hand-drawn explanation images.
 
-The default visual IP is "Tomochi": a simple dusty-pink solid-fill blob (same clean shape as Xiaohei, just pink), with a visibly confused expression — furrowed brow, uneven eyes, head tilt — while already doing the task. Tomochi must participate in the core action, not just stand beside it as decoration.
+The default visual IP is "Tomochi": the original Xiaohei blob with one change — soft pink instead of black. Same shape, same thin legs, same plain white dot eyes, same completely blank deadpan face. All emotion comes from BODY POSTURE and the absurd situation, never the face — exaggerate the posture (slump, strain, squish, off-balance) so the predicament reads. The joke is a deadpan blob committed to a ridiculous task. Tomochi must participate in the core action, not just stand beside it as decoration.
 
 ## Read These References
 

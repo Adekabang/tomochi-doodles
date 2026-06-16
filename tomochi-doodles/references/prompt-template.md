@@ -11,7 +11,7 @@ Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten annotations in English or Bahasa Indonesia. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
-Tomochi — same construction as a classic simple hand-drawn blob character: small solid-fill round/bean body, thin stick legs, small thin arms. Dusty pink color (muted warm rose / faded blush — not pastel, not vibrant, think #D4A5A5). Two small white dot eyes, slightly uneven or offset to show permanent confusion. Small simple V-shaped or squiggly brow marks above the eyes — visibly puzzled expression. Head may tilt slightly. The face reads "I have no idea what's going on" while the body is mid-task. Slightly rough hand-drawn outline, not perfectly smooth. Tomochi must perform the core conceptual action — confused face and gesture while doing the work, not standing beside it watching. Not sleepy, not panicked, not happy — just genuinely confused and persistently working.
+Tomochi — identical construction to the classic Xiaohei blob: small solid-fill round/bean body, thin stick legs, small thin arms. The ONLY change from the original is color: soft pink (muted warm rose / faded blush — not pastel, not vibrant, think #D4A5A5). Two small white plain dot eyes, evenly placed. Completely blank deadpan face — no eyebrows, no mouth, no sweat, no expression lines, the face never reacts. All emotion comes from BODY POSTURE and the absurd situation, never the face — exaggerate the posture (slumping, straining, bracing, squished, stretched, off-balance, flailing) to match the task. The joke is a totally deadpan blob committed to a ridiculous contraption. Slightly rough hand-drawn outline, not perfectly smooth. Tomochi must perform the core conceptual action, not stand beside it watching. Not sleepy, not panicked, not happy, not cute — flat, earnest, and committed.
 
 Theme:
 {article illustration theme}
@@ -49,5 +49,5 @@ Edit the provided image. Remove only the handwritten title "{text to remove}" an
 Enhance Tomochi's involvement:
 
 ```text
-Regenerate with same core meaning and layout, but make Tomochi the action subject, not decoration. Tomochi should be mid-task with a visibly confused expression — furrowed brow marks, slightly uneven eyes, head possibly tilted or a small arm gesture showing puzzlement — while the body is already doing the work. Keep it clean, sparse, hand-drawn. Not sleepy, not panicked — confused and persistent.
+Regenerate with same core meaning and layout, but make Tomochi the action subject, not decoration. Keep the face completely blank and deadpan — let the BODY carry everything: exaggerate the posture (slump, strain, brace, squished, off-balance) so the absurd situation reads, not the face. Keep it clean, sparse, hand-drawn. Identical Xiaohei shape, soft pink, flat and committed.
 ```
